@@ -128,7 +128,7 @@ export default function Home() {
           <div className="flex-1">
             <Image src={web3} alt="FNAF Game Web Recreation" className="rounded-lg object-cover w-full h-auto" />
             <p className="mt-6 text-lg text-gray-700 dark:text-white">
-              <strong>FNAF Game Web Recreation:</strong> A full-stack web adaptation of the Five Nights at Freddy's game, showcasing sophisticated web technologies for an immersive user experience.
+              <strong>FNAF Game Web Recreation:</strong> A full-stack web adaptation of the Five Nights at Freddys game, showcasing sophisticated web technologies for an immersive user experience.
               </p>
             </div>
           </div>
