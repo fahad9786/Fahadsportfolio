@@ -4,7 +4,7 @@ import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from 'react-icons/
 import Image from "next/image";
 import fahad from '../public/avatars.png';
 import design from '../public/design.png';
-import git from '../public/github.png';
+import git from '../public/git.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
 import web1 from '../public/web1.png';
