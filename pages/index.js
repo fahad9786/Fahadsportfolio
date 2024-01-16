@@ -4,7 +4,7 @@ import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from 'react-icons/
 import Image from "next/image";
 import fahad from '../public/avatars.png';
 import design from '../public/design.png';
-import git from '../public/github.png';
+import git from '../public/git.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
 import web1 from '../public/web1.png';
@@ -34,12 +34,12 @@ export default function Home() {
               </li>
 
               <li>
-                <a href="https://github.com/fahad9786" target="_blank" rel="noopener noreferrer">
-                  {/* Use the Image component to display your GitHub icon */}
-                  <Image src={git} alt="GitHub" width={30} height={30} className="cursor-pointer ml-4" />
-                </a>
+              <a href="https://github.com/fahad9786" target="_blank" rel="noopener noreferrer">
+                {/* Use the Image component to display your GitHub icon */}
+                <Image src={git} alt="GitHub" width={30} height={30} className="cursor-pointer ml-4" />
+              </a>
               </li>
-  
+
               <li>
                 <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="https://www.linkedin.com/in/fahad-sheikh-a61a18273/">LinkedIn</a>
               </li>
