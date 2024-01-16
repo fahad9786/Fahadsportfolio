@@ -4,6 +4,7 @@ import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from 'react-icons/
 import Image from "next/image";
 import fahad from '../public/avatars.png';
 import design from '../public/design.png';
+import git from '../public/github.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
 import web1 from '../public/web1.png';
@@ -31,6 +32,14 @@ export default function Home() {
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-2xl dark:text-white" />
               </li>
+
+              <li>
+                <a href="https://github.com/fahad9786" target="_blank" rel="noopener noreferrer">
+                  {/* Use the Image component to display your GitHub icon */}
+                  <Image src={git} alt="GitHub" width={30} height={30} className="cursor-pointer ml-4" />
+                </a>
+              </li>
+  
               <li>
                 <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="https://www.linkedin.com/in/fahad-sheikh-a61a18273/">LinkedIn</a>
               </li>
@@ -42,7 +51,7 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Fahad Sheikh</h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-gray-400">Developer and designer</h3>
             <p className="text-md py-5 leading-6 text-gray-800 md:text-xl max-w-m mx-auto dark:text-white">
-              I&apos;m Fahad Sheikh, a Computer Science student with a UX Design focus. Skilled in Java, Python, and Swift, I specialize in both iOS and web development. My portfolio features user-centric applications and web solutions, highlighting my passion for merging technical development with UX principles.
+              I&apos;m Fahad Sheikh, a UX student with a minor in computer science. Skilled in Java, Python, and Swift, I specialize in both iOS and web development. My portfolio features user-centric applications and web solutions, highlighting my passion for merging technical development with UX principles.
             </p>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
@@ -141,7 +150,6 @@ export default function Home() {
 
 
         </section>
-        {/* ...other sections... */}
 
 
         
