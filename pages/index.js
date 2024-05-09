@@ -99,7 +99,7 @@ export default function Home() {
             <Image src={consulting} alt="Consulting Icon" width={100} height={100} />
             <h3 className="text-lg font-medium pt-8 pb-2">UX Consulting</h3>
             <p className="py-2">
-              I have a background in user experience (UX) design, emphasizing user-centric solutions.
+              I have a background in user experience (UX) Design, emphasizing user-centric solutions.
             </p>
             <h4 className="py-4 text-teal-600">UX tools I use</h4>
             <p className="text-gray-800 py-1">Wireframing and Prototyping</p>
