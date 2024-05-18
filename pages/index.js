@@ -116,7 +116,7 @@ export default function Home() {
       <div className="flex-1">
         <Image src={web1} alt="To-Do List App in Swift" className="rounded-lg object-cover w-full h-auto" />
         <p className="mt-6 text-lg text-gray-700 dark:text-white">
-          <strong>To-Do List App in Swift:</strong> A functional to-do list app with Firebase integration for real-time data synchronization. Designed for user experience, it offers a clean and intuitive interface.
+          <strong>To-Do List App in Swift:</strong> A functional to-do list app with Firebase integration for real time data synchronization. Designed for user experience, it offers a clean and intuitive interface.
         </p>
         <div className="mt-2">
           <a href="https://youtu.be/dbN35-gTw3k" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline">Watch Demo</a>
