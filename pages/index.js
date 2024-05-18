@@ -110,41 +110,40 @@ export default function Home() {
       </section>
 
 
-      <section>
-      <div>
-        <h3 className="text-3xl py-1 dark:text-white">Current Projects</h3>
-        <p className="text-md py-2 leading-8 text-gray-800 dark:text-white">
-          Currently, I am pursuing an education in the <span className="text-teal-500 dark:text-teal-200">User Experience</span> and <span className="text-teal-500">Software Development fields</span>. I&apos;m in search of co-op opportunities while working on side projects.
+   <section>
+  <div className="container mx-auto px-4">
+    <div className="flex flex-col lg:flex-row gap-10">
+      <div className="flex-1">
+        <Image src={web1} alt="To-Do List App in Swift" className="rounded-lg object-cover w-full h-auto" />
+        <p className="mt-6 text-lg text-gray-700 dark:text-white">
+          <strong>To-Do List App in Swift:</strong> A functional to-do list app with Firebase integration for real-time data synchronization. Designed for user experience, it offers a clean and intuitive interface.
         </p>
+        <div className="mt-2">
+          <a href="https://youtu.be/dbN35-gTw3k" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline">Watch Demo</a>
+        </div>
       </div>
 
-      <div className="container mx-auto px-4">
-        <div className="flex flex-col lg:flex-row gap-10">
-          <div className="flex-1">
-            <Image src={web1} alt="To-Do List App in Swift" className="rounded-lg object-cover w-full h-auto" />
-            <p className="mt-6 text-lg text-gray-700 dark:text-white">
-              <strong>To-Do List App in Swift:</strong> A functional to-do list app with Firebase integration for real-time data synchronization. Designed for user experience, it offers a clean and intuitive interface.
-            </p>
-          </div>
-
-          <div className="flex-1">
-            <Image src={web2} alt="AI Image Generator" className="rounded-lg object-cover w-full h-auto" />
-            <p className="mt-6 text-lg text-gray-700 dark:text-white">
-              <strong>AI Image Generator:</strong> Developed in Swift, this tool uses AI algorithms for generating unique visuals. It features a user-friendly interface, blending creativity and AI in graphic design.
-            </p>
-          </div>
-
-          <div className="flex-1">
-            <Image src={web3} alt="FNAF Game Web Recreation" className="rounded-lg object-cover w-full h-auto" />
-            <p className="mt-6 text-lg text-gray-700 dark:text-white">
-              <strong>FNAF Game Web Recreation:</strong> A full-stack web adaptation of the Five Nights at Freddys game, showcasing sophisticated web technologies for an immersive user experience.
-              </p>
-            </div>
-          </div>
+      <div className="flex-1">
+        <Image src={web2} alt="AI Image Generator" className="rounded-lg object-cover w-full h-auto" />
+        <p className="mt-6 text-lg text-gray-700 dark:text-white">
+          <strong>AI Image Generator:</strong> Developed in Swift, this tool uses AI algorithms for generating unique visuals. It features a user-friendly interface, blending creativity and AI in graphic design.
+        </p>
+        <div className="mt-2">
+          <a href="https://youtu.be/RfQn5DESwiM" target="_blank" rel="noopener noreferrer" className="text-teal-600 hover:underline">Watch Demo</a>
         </div>
-      </section>
+      </div>
 
+      <div className="flex-1">
+        <Image src={web3} alt="FNAF Game Web Recreation" className="rounded-lg object-cover w-full h-auto" />
+        <p className="mt-6 text-lg text-gray-700 dark:text-white">
+          <strong>FNAF Game Web Recreation:</strong> A full-stack web adaptation of the Five Nights at Freddys game, showcasing sophisticated web technologies for an immersive user experience.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
+  
 
 
 
