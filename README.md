@@ -4,7 +4,7 @@ Welcome to my personal portfolio! Explore my skills, projects, and experiences a
 
 ## Live Site
 
-Check out my portfolio [here](https://fahadsportfolio-site.vercel.app/).
+Check out my portfolio [here](https://fahadsportfolio-site-68laym764-fahad-sheikhs-projects.vercel.app/).
 
 ## Features
 
